@@ -25,10 +25,6 @@ A modular Tkinter-based application for managing tour bookings, with admin and u
 3. Optional database overrides: set `VAY_DB_HOST`, `VAY_DB_USER`, `VAY_DB_PASSWORD`, and `VAY_DB_NAME`
 4. Run: `python main.py`
 
-## Optional Google sign-in
-1. Create an OAuth 2.0 Desktop/Web application client in Google Cloud Console.
-2. Add `http://127.0.0.1:8765/` as an authorized redirect URI.
-3. Set `GOOGLE_CLIENT_ID` in the environment before starting the app.
 
 ## Modularization
 The original monolithic `FinalProject.py` has been split into:
