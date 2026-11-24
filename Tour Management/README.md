@@ -28,7 +28,7 @@ A modular Tkinter-based application for managing tour bookings, with admin and u
 
 ## Modularization
 The original monolithic `FinalProject.py` has been split into:
-- **Config**: Centralized constants
+- **Config**: Centralized constants for the project
 - **Database**: All DB interactions in a class
 - **Logic**: Reusable functions for calculations and validations
 - **UI**: Window classes for better organization
